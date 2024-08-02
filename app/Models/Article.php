@@ -9,7 +9,7 @@ class Article extends Model
 {
     use HasFactory;
 
-    private $fillable = [
+    protected $fillable = [
         'title',
         'body',
         'auteur',
